@@ -4,7 +4,7 @@ metadata:
   name: nginx-pod
   labels:
     tier: frontend
-    env: dev
+    env: uat
 spec:
   containers:
     - name: nginx-container
